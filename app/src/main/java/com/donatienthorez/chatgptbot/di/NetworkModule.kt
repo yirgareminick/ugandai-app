@@ -1,8 +1,8 @@
-package com.donatienthorez.chatgptbot.di
+package com.ugandai.chatgptbot.di
 
 import com.aallam.openai.client.OpenAI
 import com.aallam.openai.client.OpenAIConfig
-import com.donatienthorez.chatgptbot.BuildConfig
+import com.ugandai.chatgptbot.BuildConfig
 import org.koin.dsl.module
 
 val networkModule = module {
