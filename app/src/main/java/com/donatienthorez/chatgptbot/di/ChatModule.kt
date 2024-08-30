@@ -2,7 +2,7 @@ package com.ugandai.chatgptbot.di
 
 import com.ugandai.chatgptbot.chat.data.ConversationRepository
 import com.ugandai.chatgptbot.chat.data.api.OpenAIRepository
-import com.ugandai.chatgptbot.chat.domain.usecase.ObserveMessagesUseCase
+import com.donatienthorez.chatgptbot.chat.domain.usecase.ObserveMessagesUseCase
 import com.ugandai.chatgptbot.chat.domain.usecase.ResendMessageUseCase
 import com.ugandai.chatgptbot.chat.domain.usecase.SendChatRequestUseCase
 import com.ugandai.chatgptbot.chat.ui.ChatViewModel
