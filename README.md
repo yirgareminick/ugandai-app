@@ -1,20 +1,35 @@
-# ChatGptBot
+# UgandAI
+UgandAI is a mobile farming assistant designed to support rural farmers in Uganda by providing essential farming tools and information. The app integrates OpenAI's API for advanced language processing, offering personalized and context-aware guidance to help improve agricultural productivity in underserved communities like Mbale and Namatumba.
 
-This repository contains the source code for a chat application that uses the OpenAI API (and openai-kotlin library available [here](https://github.com/aallam/openai-kotlin)).
-The app allows users to chat with an AI model that uses OpenAI's GPT-3 language model to generate responses using the Chat Mode in OpenAI Playground.
+# Features
+AI-Powered Farming Assistant: Uses OpenAI's API to provide intelligent, real-time farming advice.
 
-# Libraries used
-- Koin for dependency injection
-- Jetpack Compose and Material3 for UI design
+User-Friendly Mobile Interface: Developed with Java and Kotlin for a smooth Android experience.
 
-# Demo
-[device-2023-04-29-121149.webm](https://user-images.githubusercontent.com/5604165/235278948-49e01143-1090-4d79-8310-7449466faaab.webm)
+Backend and API Integration: Efficiently handles data processing and user interactions.
 
-# How to make it work
-- Simply replace `OPEN_AI_API_KEY` in `app/gradle.properties` with your OpenAI API key that you can find [on OpenAI platform](https://platform.openai.com/)
-- NEVER publish that file to Github. I did it to show you how it works and have a quick setup. 
+# Technologies Used
+Languages: Java, Kotlin, Python, JSON
 
-Enjoy!
+Backend: FastAPI
+
+Frontend: Android SDK
+
+AI Integration: OpenAI API
+
+# How to Set Up
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yirgareminick/ugandai-app.git
+cd ugandai-app
+Set up the OpenAI API key in the appropriate configuration file.
+
+Build and run the project in Android Studio.
 
 # Contribution
-Feel free to contact me at donatienthorez@gmail.com or make a PR to this repo.
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+For any inquiries, contact me at yirgareminick@gmail.com.
